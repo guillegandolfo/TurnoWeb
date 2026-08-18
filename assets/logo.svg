@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-labelledby="turnoLogoTitle">
+  <title id="turnoLogoTitle">Turno</title>
+  <path d="M24 4C13 4 4 12.5 4 23c0 6.4 3.2 12 8.2 15.4L9.5 44l9.6-3.6c1.6.4 3.2.6 4.9.6 11 0 20-8.5 20-19S35 4 24 4Z" fill="#C9A15D"/>
+  <circle cx="24" cy="23" r="12.5" fill="#12100E"/>
+  <path d="M24 15.5v7.9l5.4 3.4" stroke="#C9A15D" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="23" r="1.6" fill="#C9A15D"/>
+</svg>
