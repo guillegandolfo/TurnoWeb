@@ -2,13 +2,13 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 
 const SCRIPTS = {
   hero: [
-    { side: "in", text: "Hola! ¿Tenés lugar mañana a la tarde para un corte?" },
-    { side: "out", text: "Sí! Tengo 16:30 o 18:00 libres con Fede. ¿Cuál preferís?" },
-    { side: "in", text: "18:00 me viene bien" },
-    { side: "out", text: "Listo, quedás agendada para mañana 18:00 con Fede ✅" },
+    { side: "in", text: "Hola! Busco una peluquería cerca de Pocitos para mañana a la tarde" },
+    { side: "out", text: "Tengo lugar en Peluquería Lucero (18:00) y Barbería Nico (17:00), las dos a menos de 10 cuadras. ¿Cuál preferís?" },
+    { side: "in", text: "Peluquería Lucero a las 18" },
+    { side: "out", text: "Listo, quedás agendada mañana 18:00 en Peluquería Lucero con Fede ✅" },
   ],
   reminder: [
-    { side: "out", text: "Hola Caro! Te recordamos tu turno de hoy a las 18:00 con Fede." },
+    { side: "out", text: "Hola Caro! Te recordamos tu turno de hoy a las 18:00 en Peluquería Lucero con Fede." },
     { side: "in", text: "Genial, ahí estoy 🙌" },
     { side: "out", text: "Te esperamos. Cualquier cambio, avisanos por acá." },
   ],

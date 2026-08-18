@@ -1,8 +1,23 @@
 # Turno Web — Especificación de contenido y diseño
 
-Landing informativa B2B para presentar Turno (bot de reservas por WhatsApp
-para peluquerías) a dueños/as de peluquería, y sirve como página informativa
-de la empresa para el proceso de validación de negocio de Meta.
+Landing informativa B2B para presentar Turno a dueños/as de peluquería, y
+sirve como página informativa de la empresa para el proceso de validación
+de negocio de Meta.
+
+## Modelo de producto (importante)
+
+Turno **no es un bot por peluquería**. Es un único número de WhatsApp,
+compartido por toda la red de peluquerías: el cliente le escribe a Turno
+(no al número propio de una peluquería), y puede:
+
+- pedir una peluquería puntual por nombre, o
+- pedir "algo cerca" y dejar que Turno le ofrezca opciones por cercanía.
+
+Turno agenda el turno en la peluquería elegida y le avisa al dueño/a por su
+WhatsApp normal. Ninguna peluquería gestiona número, bot ni app propia —
+solo recibe reservas ya hechas. Este punto condiciona todo el copy: nunca
+describir a Turno como "tu WhatsApp" o "tu número de siempre" de la
+peluquería.
 
 ## Objetivo y audiencia
 
@@ -60,11 +75,11 @@ como conversación de ejemplo.
 4. **Cómo funciona** — 4 pasos numerados.
 5. **Demo 2** — segundo chat animado mostrando el recordatorio 2hs antes.
 6. **Beneficios** — grilla de 6 features (agenda automática, recordatorios,
-   alta conversacional, cercanía/geolocalización, agenda exportable .ics,
-   mismo número de siempre).
-7. **FAQ** — 5 preguntas típicas de un dueño/a de peluquería evaluando el
-   servicio (instalación, apps para el cliente, cambiar horarios, turnos
-   pisados, atención personal).
+   alta conversacional, descubrimiento por cercanía, agenda exportable .ics,
+   sin número/app propia que gestionar).
+7. **FAQ** — 6 preguntas típicas de un dueño/a de peluquería evaluando el
+   servicio (número/bot propio, cómo lo encuentran clientes nuevos, apps
+   para el cliente, cambiar horarios, turnos pisados, atención personal).
 8. **CTA final / Contacto** — mailto a `hola@turno.app` (placeholder —
    reemplazar por el email real del negocio).
 9. **Footer** — logo + tagline.
